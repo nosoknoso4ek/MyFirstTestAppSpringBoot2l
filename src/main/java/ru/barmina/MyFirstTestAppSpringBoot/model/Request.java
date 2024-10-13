@@ -35,5 +35,21 @@ public class Request {
 
     private int smsCode;
 
+    @Override
+    public String toString() {
+        return "{" +
+                "uid='" + uid + '\'' +
+                ", operationUid=' " + operationUid + '\'' +
+                ", systemTime='" + systemName + systemTime + '\'' +
+                ", source='" + source + '\'' +
+                ", communicationId =" + communicationId +
+                ", templateId =" + templateId +
+                ", productCode=" + productCode +
+                ", smsCode=" + smsCode +
+                '}';
+
+
+    }
+
 
 }
